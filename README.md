@@ -2,7 +2,7 @@ Asynchronous usage for Window.localStorage.
 
 ## Get Started
 - npm install reactjs-async-localstorage
-- import { AsyncStorage } 'reactjs-async-localstorage'
+- import { AsyncStorage } from 'reactjs-async-localstorage'
 
 ## Usage
 **Save to localstorage**
@@ -21,7 +21,7 @@ Asynchronous usage for Window.localStorage.
 ```javascript
 import React from 'react';
 import {Text, View} from 'react-native';
-import { AsyncStorage } 'reactjs-async-localstorage';
+import { AsyncStorage } from 'reactjs-async-localstorage';
 
 const App = () => {
   const [sampleData, setSampleData] = useState(
